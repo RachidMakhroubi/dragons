@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/game_background">
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="106dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="146dp"
+        android:background="@drawable/play"
+        android:onClick="Play" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="187dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="48dp"
+        android:text="Rules:
+        \n 1 point for each killed black dragon
+        \n-1 point for each killed green dragon
+        \nGame over if the score is less than 0"
+        android:textColor="#ff0000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
