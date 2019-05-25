@@ -1,3 +1,3 @@
 # dragons
-cs443 final
-/nThe game in this project contains sound. The volume must be turned on.
+#cs443 final
+The game in this project contains sound. The volume must be turned on.
